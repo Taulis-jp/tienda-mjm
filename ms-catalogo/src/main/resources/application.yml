@@ -1,0 +1,30 @@
+server:
+  port: 9002
+  error:
+    include-stacktrace: never
+
+spring:
+  application:
+    name: ms-catalogo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/catalogo
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: "${spring.application.name}:${random.value}"
+    lease-renewal-interval-in-seconds: 15
+    lease-expiration-duration-in-seconds: 60

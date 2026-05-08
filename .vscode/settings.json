@@ -1,0 +1,7 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
