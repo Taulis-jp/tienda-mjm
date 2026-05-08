@@ -1,6 +1,6 @@
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\exception\ReferentialIntegrityException.java
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\exception\EntityNotFoundException.java
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\exception\DuplicateResourceException.java
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\exception\ApiError.java
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\CommonAutoConfiguration.java
-C:\26-biblioteca-v04\common\src\main\java\cl\triskeledu\common\exception\GlobalExceptionHandler.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\exception\ApiError.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\CommonAutoConfiguration.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\exception\EntityNotFoundException.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\exception\ReferentialIntegrityException.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\exception\DuplicateResourceException.java
+C:\tienda\common\src\main\java\cl\triskeledu\common\exception\GlobalExceptionHandler.java
