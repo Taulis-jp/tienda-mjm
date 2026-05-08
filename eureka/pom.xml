@@ -41,6 +41,12 @@
     <!-- Dependencias necesarias para este microservicio -->
     <dependencies>
 
+        <!-- Libreria comun compartida -->
+        <dependency>
+            <groupId>cl.triskeledu</groupId>
+            <artifactId>cl-triskeledu-common</artifactId>
+        </dependency>
+
         <!-- Eureka server -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

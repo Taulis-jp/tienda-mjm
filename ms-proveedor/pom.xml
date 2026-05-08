@@ -42,6 +42,12 @@
     <!-- Dependencias necesarias para este microservicio -->
     <dependencies>
 
+        <!-- Libreria comun compartida -->
+        <dependency>
+            <groupId>cl.triskeledu</groupId>
+            <artifactId>cl-triskeledu-common</artifactId>
+        </dependency>
+
         <!-- Spring Web: Controladores REST -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

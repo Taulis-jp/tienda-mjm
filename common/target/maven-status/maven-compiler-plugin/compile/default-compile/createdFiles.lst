@@ -1,0 +1,7 @@
+cl\triskeledu\common\exception\EntityNotFoundException.class
+cl\triskeledu\common\exception\ApiError$ApiErrorBuilder.class
+cl\triskeledu\common\CommonAutoConfiguration.class
+cl\triskeledu\common\exception\GlobalExceptionHandler.class
+cl\triskeledu\common\exception\DuplicateResourceException.class
+cl\triskeledu\common\exception\ApiError.class
+cl\triskeledu\common\exception\ReferentialIntegrityException.class
